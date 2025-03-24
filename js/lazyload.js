@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".lazy-section"),t=(e,t)=>{e.forEach(e=>{if(e.isIntersecting){let o=e.target;o.classList.add("loaded"),t.unobserve(o)}})},o=new IntersectionObserver(t,{root:null,rootMargin:"0px",threshold:.1});e.forEach(e=>o.observe(e))});
