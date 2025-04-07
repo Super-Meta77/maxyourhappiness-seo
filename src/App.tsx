@@ -1242,7 +1242,7 @@ const App: React.FC = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row position-relative pb-0 align-items-center justify-content-center text-center">
+          <div className="row position-relative text-center" style={{display: "flex", justifyContent: "center"}} >
             <div className="w-full md:w-1/3 lg:w-1/3">
               <h4 className="mb-1 pb-1">
                 <strong>22,168,430</strong> People <br />Can't Be Wrong!
@@ -1251,18 +1251,26 @@ const App: React.FC = () => {
               <h4>Contact us now for more information and a private one-on-one consultation that will show you how to find
                 the happiness you've been looking for.</h4>
               <br />
-              <h1 className="hero-4-title text-black mb-lg-3 mb-2">
+              <h1 className="text-black text-3xl md:text-4xl font-bold mb-2 lg:mb-3">
                 Call Now For An Appointment
               </h1>
+              {/* <h1 className="hero-4-title text-black mb-lg-3 mb-2">
+                Call Now For An Appointment
+              </h1> */}
               <h1>
                 <a href="tel:800-727-7844">800-727-7844 <br/> or </a>
               </h1>
               <br/>
-              <h1 className="hero-4-title text-black mb-lg-3 mb-2">
+              <h1 className="text-black text-3xl md:text-4xl font-bold mb-2 lg:mb-3">
                 Schedule Appointment Online
               </h1>
-              <a href="https://cal.com/mikem33/consultation" className="btn btn-primary">Schedule Now<i
-                  className="mdi mdi-arrow-right ms-1"></i></a>
+              {/* <h1 className="hero-4-title text-black mb-lg-3 mb-2">
+                Schedule Appointment Online
+              </h1> */}
+              <div className="flex justify-center">
+                <a href="https://cal.com/mikem33/consultation" className="btn btn-primary">Schedule Now<i
+                    className="mdi mdi-arrow-right ms-1"></i></a>
+              </div>
             </div>
           </div>
         </div>
