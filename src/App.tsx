@@ -78,25 +78,16 @@ const App: React.FC = () => {
                 />
                 <button className="play-button" data-video-id="992060811" value="992060811">
                   <img
-                  src="images/arrow-down.png"
+                  src="images/play.png"
                   alt="Video Thumbnail"
                   className="h-full w-full object-contain cursor-pointer"
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-                  {/* <i className="material-icons" style={{fontSize: "40px"}} >&#xe037;</i> */}
-                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="play-icon"
-                    viewBox="0 0 16 16">
-                    <path d="M4.5 3.5v9l8-4.5-8-4.5z" />
-                  </svg> */}
                 </button>
               </div>
             </div>
           </div>
-
-          {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-            {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-          {/* </div> */}
 
           <hr className="hr-2 my-4" />
           <hr className="hr-3 my-4" />
@@ -175,9 +166,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -223,7 +211,6 @@ const App: React.FC = () => {
                     data-video-id="998466373"
                     style={{ width: "40px", height: "40px"}}
                     />
-                  {/* <i className="material-icons" style={{fontSize: "40px"}} >&#xe037;</i> */}
                 </button>
               </div>
             </div>
@@ -241,9 +228,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -265,7 +249,6 @@ const App: React.FC = () => {
                     data-video-id="998466373"
                     style={{ width: "40px", height: "40px"}}
                     />
-                  {/* <i className="material-icons" style={{fontSize: "40px"}} >&#xe037;</i> */}
                 </button>
               </div>
             </div>
@@ -303,9 +286,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -349,7 +329,6 @@ const App: React.FC = () => {
                     data-video-id="998466373"
                     style={{ width: "40px", height: "40px"}}
                     />
-                  {/* <i className="material-icons" style={{fontSize: "40px"}} >&#xe037;</i> */}
                 </button>
               </div>
             </div>
@@ -367,9 +346,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -432,9 +408,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -492,9 +465,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -553,9 +523,6 @@ const App: React.FC = () => {
                   data-video-id="998466373"
                   style={{ width: "20px", height: "20px"}}
                   />
-              {/* <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} > */}
-                {/* <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i> */}
-              {/* </div> */}
             </div>
           </div>
           <hr className="hr-4 my-4" />
@@ -633,9 +600,13 @@ const App: React.FC = () => {
                 <div className="relative flex justify-center">
                   <div className="border-t border-blue-100 w-full absolute top-1/2 transform -translate-y-1/2 z-0"></div>
                   <div className="relative z-10 flex justify-center">
-                    <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} >
-                      <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i>
-                    </div>
+                    <img
+                      src="images/arrow-down.png"
+                      alt="Video Thumbnail"
+                      className="h-full w-full object-contain cursor-pointer"
+                      data-video-id="998466373"
+                      style={{ width: "20px", height: "20px"}}
+                      />
                   </div>
                 </div>
               </div>
@@ -1219,9 +1190,13 @@ const App: React.FC = () => {
           <div className="relative flex justify-center">
             <div className="border-t border-blue-100 w-full absolute top-1/2 transform -translate-y-1/2 z-0"></div>
             <div className="relative z-10 flex justify-center">
-              <div className="bg-[#e5977a] rounded-full shadow-md flex justify-center" style={{ width: "20px", height: "20px", alignItems:"center", color: "#c55327"}} >
-                <i className="material-icons" style={{fontSize: "16px", fontWeight: "bold"}} >&#xe5db;</i>
-              </div>
+              <img
+                src="images/arrow-down.png"
+                alt="Video Thumbnail"
+                className="h-full w-full object-contain cursor-pointer"
+                data-video-id="998466373"
+                style={{ width: "20px", height: "20px"}}
+                />
             </div>
           </div>
           <hr className="hr-4 my-4" />
