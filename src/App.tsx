@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css"
+import VimeoCard from './components/VimeoCard';
 
 const App: React.FC = () => {
   return (
@@ -69,23 +70,11 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/WhatsApp-Image-2024-11-20-at-1.30.00-PM.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="992060811"
-                />
-                <button className="play-button" data-video-id="992060811" value="992060811">
-                  <img
-                  src="images/play.png"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466373"
-                  style={{ width: "28px", height: "28px"}}
-                  />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1064104510"
+                title="Have any of these happened to you?"
+                thumbnail="images/WhatsApp-Image-2024-11-20-at-1.30.00-PM.webp"
+              />
             </div>
           </div>
 
@@ -107,23 +96,11 @@ const App: React.FC = () => {
 
           <div className="flex flex-col items-center lg:flex-row">
             <div className="w-full lg:w-6/12">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Vivian-Problem-With-Relationships.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466373"
-                />
-                <button className="play-button" data-video-id="998466373" value="998466373">
-                 <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728068"
+                title="Problem with relationships?"
+                thumbnail="images/Vivian-Problem-With-Relationships.webp"
+              />
             </div>
             <div className="mt-4 lg:mt-0 lg:w-5/12 lg:ml-auto">
               <h4
@@ -196,23 +173,11 @@ const App: React.FC = () => {
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Brent-Anxiety.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466432"
-                />
-                <button className="play-button" data-video-id="998466432" value="998466432">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728009"
+                title="What is the true source of anxiety?"
+                thumbnail="images/Brent-Anxiety.webp"
+              />
             </div>
           </div>
 
@@ -234,27 +199,15 @@ const App: React.FC = () => {
 
           <div className="flex flex-col items-center lg:flex-row">
             <div className="w-full lg:w-6/12">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Carmel-Can-You-Conquer-Your-Fears.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466468"
-                />
-                <button className="play-button" data-video-id="998466468"  value="998466468">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728033"
+                title="Can’t conquer your Fears?"
+                thumbnail="images/Carmel-Can-You-Conquer-Your-Fears.webp"
+              />
             </div>
             <div className="mt-4 lg:mt-0 lg:w-5/12 lg:ml-auto">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
-                Can't Let Go of Your Fears?
+                Can’t Conquer Your Fears?
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
@@ -293,7 +246,7 @@ const App: React.FC = () => {
           <div className="flex flex-col items-center lg:flex-row">
             <div className="order-2 mt-4 lg:order-1 lg:mt-0 lg:w-5/12">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
-                Can't Let Go of Your Losses?
+                Can’t Let Go of Your Loss?
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
@@ -314,23 +267,11 @@ const App: React.FC = () => {
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Julie-Cant-Let-Go-Of-Your-Loss.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466485"
-                />
-                <button className="play-button" data-video-id="998466485"   value="998466485">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px" }}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728044"
+                title="Can’t Let Go of Your Loss?"
+                thumbnail="images/Julie-Cant-Let-Go-Of-Your-Loss.webp"
+              />
             </div>
           </div>
 
@@ -352,27 +293,15 @@ const App: React.FC = () => {
 
           <div className="flex flex-col items-center lg:flex-row">
             <div className="w-full lg:w-6/12">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Emmett-Why-Dont-My-Relationships-Work.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466389"
-                />
-                <button className="play-button" data-video-id="998466389"  value="998466389">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728080"
+                title="Why Don’t My Relationships Work?"
+                thumbnail="images/Emmett-Why-Dont-My-Relationships-Work.webp"
+              />
             </div>
             <div className="mt-4 lg:mt-0 lg:w-5/12 lg:ml-auto">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
-                Why Don't My Relationships Work?
+                Why Don’t My Relationships Work?
               </h4>
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE:</strong> I mean, I was doing really well in many
@@ -434,23 +363,11 @@ const App: React.FC = () => {
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Nancy-What_Is-The-Real-Cause-Of-Depression.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466356"
-                />
-                <button className="play-button" data-video-id="998466356" value="998466356">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728060"
+                title="What Is The Real Cause of Depression?"
+                thumbnail="images/Nancy-What_Is-The-Real-Cause-Of-Depression.webp"
+              />
             </div>
           </div>
 
@@ -472,23 +389,11 @@ const App: React.FC = () => {
 
           <div className="flex flex-col items-center lg:flex-row">
             <div className="w-full lg:w-6/12">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Brian-How-Do-You-Reach-Your-Full-Potential.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466453"
-                />
-                <button className="play-button" data-video-id="998466453" value="998466453">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063728025"
+                title="How Do You Reach Your Full Potential?"
+                thumbnail="images/Brian-How-Do-You-Reach-Your-Full-Potential.webp"
+              />
             </div>
             <div className="mt-4 lg:mt-0 lg:w-5/12 lg:ml-auto">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
@@ -561,23 +466,11 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Annie-What-Is-Happiness.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466412"
-                />
-                <button className="play-button" data-video-id="998466412" value="998466412">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{width: "28px", height: "28px"}}
-                    />
-                </button>
-              </div>
+              <VimeoCard
+                videoId="1063727981"
+                title="What is Happiness?"
+                thumbnail="images/Annie-What-Is-Happiness.webp"
+              />
             </div>
           </div>
         </div>
