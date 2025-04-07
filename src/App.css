@@ -1,8 +1,3 @@
-.content-box,
-.content-section {
-    background-color: transparent
-}
-
 body,
 h1,
 h2,
@@ -10,7 +5,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto
 }
 
@@ -19,22 +13,10 @@ label {
     color: #343a40
 }
 
-.lazy-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity .5s ease-in-out, transform .5s ease-in-out
-}
-
-.bg-overlay,
-.client-images img {
+.bg-overlay {
     height: 100%;
     opacity: .7;
     width: 100%
-}
-
-.lazy-section.loaded {
-    opacity: 1;
-    transform: translateY(0)
 }
 
 body {
@@ -59,40 +41,10 @@ html {
     scroll-padding-top: 58px
 }
 
-.testimonial-pic {
-    border: .1px solid #fff !important;
-    border-radius: 50% !important;
-    height: 40px !important;
-    left: 15px;
-    position: absolute;
-    top: 10px;
-    transition: transform .3s ease-in-out, border-radius .3s ease-in-out;
-    width: 40px !important
-}
-
-.content-box,
 .row>*,
 .title .title-icon,
-.tns-outer,
 .video-container {
     position: relative
-}
-
-.content-box {
-    border: .2px solid #c55327;
-    border-radius: 8px;
-    box-shadow: none;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    padding: 60px 20px 20px;
-    text-align: left;
-    transition: transform .3s, box-shadow .3s
-}
-
-.content-box:hover {
-    transform: translateY(-10px)
 }
 
 .row.g-4>[class^=col-] {
@@ -117,7 +69,6 @@ a {
 }
 
 p {
-    /* font-size: 15px; */
     font-family: Cabin, sans-serif;
     line-height: 1.6 !important;
     color: #000 !important;
@@ -212,26 +163,6 @@ hr {
     background-color: #fbf3e9
 }
 
-.bg-soft-warning {
-    background-color: rgba(255, 212, 85, .1) !important
-}
-
-.bg-danger {
-    background-color: #d1495b !important
-}
-
-.bg-soft-danger {
-    background-color: rgba(209, 73, 91, .1) !important
-}
-
-.text-danger {
-    color: #d1495b !important
-}
-
-.uim-icon-danger .uim-svg {
-    fill: #d1495b !important
-}
-
 .btn-light,
 .text-body,
 .text-dark {
@@ -267,22 +198,6 @@ hr {
     text-align: left
 }
 
-.bg-light {
-    background-color: #f6faff !important
-}
-
-.uim-icon-light .uim-svg {
-    fill: #f6faff !important
-}
-
-.bg-soft-black {
-    background-color: rgba(0, 0, 0, .1) !important
-}
-
-.uim-icon-black .uim-svg {
-    fill: #000 !important
-}
-
 .section {
     padding: 80px 0;
     position: relative
@@ -303,18 +218,6 @@ hr {
     width: 100%
 }
 
-.font-12 {
-    font-size: 12px
-}
-
-.font-14 {
-    font-size: 14px
-}
-
-.font-16 {
-    font-size: 16px
-}
-
 .font-18 {
     font-size: 18px;
     text-align: left
@@ -324,32 +227,8 @@ hr {
     font-size: 20px
 }
 
-.font-22 {
-    font-size: 22px
-}
-
-.font-24 {
-    font-size: 24px
-}
-
 .fw-semibold {
     font-weight: 600 !important
-}
-
-.avatar-sm {
-    height: 16px;
-    width: 16px
-}
-
-.avatar-md,
-.icons-md svg {
-    height: 32px;
-    width: 32px
-}
-
-.avatar-lg {
-    height: 50px;
-    width: 50px
 }
 
 .uim-svg {
@@ -364,25 +243,6 @@ hr {
     height: 24px;
     vertical-align: inherit;
     width: 24px
-}
-
-.icons-sm svg {
-    height: 18px;
-    width: 18px
-}
-
-.icons-lg svg {
-    height: 40px;
-    width: 40px
-}
-
-.icons-xl svg {
-    height: 48px;
-    width: 48px
-}
-
-.box-shadow {
-    box-shadow: 0 8px 35px 0 rgba(69, 61, 80, .05)
 }
 
 .avatar-title {
@@ -426,11 +286,6 @@ label {
     text-decoration: none
 }
 
-.btn-sm {
-    font-size: 13px;
-    padding: .4rem .8rem
-}
-
 .btn-primary {
     background: #c55327;
     border-color: #c55327;
@@ -443,20 +298,6 @@ label {
 .btn-primary:hover {
     background: #000;
     border-color: #000;
-    color: #fff
-}
-
-.btn-outline-primary {
-    border-color: #000;
-    color: #000
-}
-
-.btn-outline-primary.active,
-.btn-outline-primary:active,
-.btn-outline-primary:focus,
-.btn-outline-primary:hover {
-    background: #c55327 !important;
-    border-color: #c55327 !important;
     color: #fff
 }
 
@@ -492,7 +333,6 @@ label {
 }
 
 @media (max-width:991px) {
-
     h1,
     h2,
     h3,
@@ -520,12 +360,6 @@ label {
     .iframe {
         width: 100%
     }
-}
-
-.home-small-title {
-    font-size: 16px;
-    letter-spacing: 3px;
-    text-transform: uppercase
 }
 
 .hero-4 {
@@ -618,71 +452,6 @@ label {
     padding: 4px 0
 }
 
-.tns-outer .tns-controls {
-    position: absolute;
-    right: 0;
-    top: -50px
-}
-
-.tns-outer .tns-controls button {
-    background-color: #c55327 !important;
-    border: none;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 18px;
-    margin: 0 0 0 5px;
-    transition: .3s
-}
-
-.tns-outer .tns-controls button:active,
-.tns-outer .tns-controls button:focus,
-.tns-outer .tns-controls button:hover {
-    background-color: #c55327 !important;
-    color: #fff;
-    outline: 0
-}
-
-.tns-outer .tns-controls button.active button,
-.tns-outer .tns-nav button.tns-nav-active {
-    background-color: #c55327 !important
-}
-
-.tns-outer .tns-controls:focus {
-    outline: 0 !important
-}
-
-.tns-outer .tns-nav {
-    margin-top: 16px;
-    text-align: center
-}
-
-.tns-outer .tns-nav button {
-    background-color: #c55327 !important;
-    border: none;
-    border-radius: 50%;
-    height: 10px !important;
-    margin: 0 6px;
-    padding: 0;
-    width: 10px !important
-}
-
-.tns-outer .tns-nav button.active,
-.tns-outer .tns-nav button:active,
-.tns-outer .tns-nav button:focus,
-.tns-outer .tns-nav button:hover {
-    background-color: #c55327 !important;
-    outline: 0
-}
-
-.client-images img {
-    margin: 10px auto;
-    transition: .5s
-}
-
-.client-images img:hover {
-    opacity: 1
-}
-
 .footer {
     padding: 10px 0
 }
@@ -706,12 +475,6 @@ label {
 }
 
 @media (max-width:768px) {
-    .content-box {
-        margin-bottom: 0;
-        padding-top: 70px;
-        text-align: left
-    }
-
     .testimonial-pic {
         height: 40px !important;
         left: 15px !important;
@@ -766,23 +529,6 @@ label {
         padding-top: 5vh
     }
 
-    .client-images img {
-        height: 100%;
-        width: 100%
-    }
-
-    .footer .footer-list-menu {
-        font-size: 15px;
-        text-align: center
-    }
-
-    .clients {
-        height: 100%;
-        padding-bottom: 0;
-        padding-top: 0;
-        width: 100%
-    }
-
     .font-20 {
         font-size: 16px !important
     }
@@ -791,20 +537,5 @@ label {
 @media (min-width:1240px) {
     .footer-privacy {
         margin-left: 40px !important
-    }
-}
-
-@media (min-width:768px) {
-    .tns-outer .tns-nav {
-        margin-top: 0 !important;
-        text-align: center !important
-    }
-
-    .client-images img {
-        height: 100%;
-        margin: 10px auto;
-        opacity: .7;
-        transition: .5s;
-        width: auto !important
     }
 }
