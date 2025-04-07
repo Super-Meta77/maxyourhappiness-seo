@@ -82,7 +82,7 @@ const App: React.FC = () => {
                   alt="Video Thumbnail"
                   className="h-full w-full object-contain cursor-pointer"
                   data-video-id="998466373"
-                  style={{ width: "20px", height: "20px"}}
+                  style={{ width: "28px", height: "28px"}}
                   />
                 </button>
               </div>
@@ -120,7 +120,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>
@@ -209,7 +209,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>
@@ -247,7 +247,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>
@@ -327,7 +327,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px" }}
                     />
                 </button>
               </div>
@@ -365,7 +365,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>
@@ -412,27 +412,9 @@ const App: React.FC = () => {
           </div>
           <hr className="hr-4 my-4" />
 
+
           <div className="flex flex-col items-center lg:flex-row">
-            <div className="w-full lg:w-6/12">
-              <div className="relative h-[600px] w-full overflow-hidden">
-                <img
-                  src="images/Nancy-What_Is-The-Real-Cause-Of-Depression.webp"
-                  alt="Video Thumbnail"
-                  className="h-full w-full object-contain cursor-pointer"
-                  data-video-id="998466356"
-                />
-                <button className="play-button" data-video-id="998466356" value="998466356">
-                  <img
-                    src="images/play.png"
-                    alt="Video Thumbnail"
-                    className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
-                    />
-                </button>
-              </div>
-            </div>
-            <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
+            <div className="order-2 mt-4 lg:order-1 lg:mt-0 lg:w-5/12">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
                 What Is The Real Cause of Depression?
               </h4>
@@ -450,6 +432,25 @@ const App: React.FC = () => {
                 were so gut wrenchingly difficult at times in my life is just
                 completely gone.
               </p>
+            </div>
+            <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
+              <div className="relative h-[600px] w-full overflow-hidden">
+                <img
+                  src="images/Nancy-What_Is-The-Real-Cause-Of-Depression.webp"
+                  alt="Video Thumbnail"
+                  className="h-full w-full object-contain cursor-pointer"
+                  data-video-id="998466356"
+                />
+                <button className="play-button" data-video-id="998466356" value="998466356">
+                  <img
+                    src="images/play.png"
+                    alt="Video Thumbnail"
+                    className="h-full w-full object-contain cursor-pointer"
+                    data-video-id="998466373"
+                    style={{width: "28px", height: "28px"}}
+                    />
+                </button>
+              </div>
             </div>
           </div>
 
@@ -484,7 +485,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>
@@ -573,7 +574,7 @@ const App: React.FC = () => {
                     alt="Video Thumbnail"
                     className="h-full w-full object-contain cursor-pointer"
                     data-video-id="998466373"
-                    style={{ width: "40px", height: "40px"}}
+                    style={{width: "28px", height: "28px"}}
                     />
                 </button>
               </div>

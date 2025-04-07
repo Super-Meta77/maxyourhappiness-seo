@@ -124,10 +124,11 @@ hr {
     transform: translate(-50%, -50%);
     transition: background-color .3s, transform .2s;
     width: 60px;
-    z-index: 2
+    z-index: 2;
+    padding: 0 !important;
 }
 
-.btn,
+.btn, 
 .hiveri {
     transition: .4s
 }
