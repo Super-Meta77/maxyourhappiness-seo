@@ -16,12 +16,14 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
   return (
     <div className="w-full max-w-2xl relative">
       {isPlaying ? (
-        <div className="relative h-[600px] w-full overflow-hidden">
+        <div className="relative h-[600px] w-full overflow-hidden" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <img
                 src={thumbnail}
                 alt="Video Thumbnail"
                 className="h-full w-full object-contain cursor-pointer"
                 data-video-id="992060811"
+                style={{width: "auto",height: "100%"}}
+                onClick={handlePlay}
             />
             <button className="play-button" onClick={handlePlay} data-video-id="992060811" value="992060811">
                 <img
