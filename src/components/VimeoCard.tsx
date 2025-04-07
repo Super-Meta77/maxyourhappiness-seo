@@ -34,14 +34,9 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
             </button>
         </div>
       ) : (
-        // <iframe
-        //     src="https://player.vimeo.com/video/1064104510?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        //     frameBorder="0"
-        //     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-        //     style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}
-        //     title="Have any of these happened to you?"/>
         <iframe
-            src={`https://player.vimeo.com/video/${videoId}?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}
+            // src={`https://player.vimeo.com/video/${videoId}?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}
+            src={`https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1&dnt=1&loop=1&autopause=0&byline=0&portrait=0&title=0&badge=0&endscreen=0;app_id=58479`}
             width="100%"
             height="600"
             className="w-full"
