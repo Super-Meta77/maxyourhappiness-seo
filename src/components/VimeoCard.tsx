@@ -37,8 +37,7 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
         </div>
       ) : (
         <iframe
-            // src={`https://player.vimeo.com/video/${videoId}?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}
-            src={`https://player.vimeo.com/video/${videoId}?autoplay=1&muted=0&dnt=1&loop=1&autopause=0&byline=0&portrait=0&title=0&badge=0&endscreen=0;app_id=58479`}
+            src={`https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1&dnt=1&loop=1&autopause=0&byline=0&portrait=0&title=0&badge=0&endscreen=0;app_id=58479`}
             width="100%"
             height="600"
             className="w-full"
