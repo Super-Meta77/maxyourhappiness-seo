@@ -7,30 +7,28 @@ interface VimeoCardProps {
 }
 
 const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
-    setIsPlaying(false);
+    setIsPlaying(true);
   };
 
   return (
     <div className="w-full max-w-2xl relative">
-      {isPlaying ? (
+      {!isPlaying ? (
         <div className="relative h-[600px] w-full overflow-hidden" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <img
                 src={thumbnail}
-                alt="Video Thumbnail"
+                alt={title}
                 className="h-full w-full object-contain cursor-pointer"
-                data-video-id="992060811"
                 style={{width: "auto",height: "100%"}}
                 onClick={handlePlay}
             />
-            <button className="play-button" onClick={handlePlay} data-video-id="992060811" value="992060811">
+            <button className="play-button" onClick={handlePlay}>
                 <img
                     src="images/play.png"
-                    alt="Video Thumbnail"
+                    alt="Play Icon"
                     className="h-full w-full object-contain cursor-pointer"
-                    data-video-id="998466373"
                     style={{ width: "28px", height: "28px"}}
                 />
             </button>
