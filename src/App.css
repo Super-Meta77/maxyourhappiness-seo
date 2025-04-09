@@ -130,13 +130,13 @@ hr {
 
 .play-unmuted-button{
     background-color: #c55327;
-    border-radius: 50%;
+    border-radius: 8px;
     color: #fff;
 }
 
 .play-unmuted-button:hover {
     background-color: #000;
-    transform: translate(-50%, -50%) scale(1.1)
+    transform: scale(1.1)
 }
 
 .btn, 
