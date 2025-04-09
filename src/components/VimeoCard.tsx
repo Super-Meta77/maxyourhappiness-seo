@@ -8,9 +8,14 @@ interface VimeoCardProps {
 
 const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
   const [isPlaying, setIsPlaying] = useState(true);
+  const [isMuted, setIsMuted] = useState(true);
 
   const handlePlay = () => {
     setIsPlaying(false);
+  };
+
+  const handleUnmute = () => {
+    setIsMuted(false);
   };
 
   return (
@@ -36,16 +41,29 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
             </button>
         </div>
       ) : (
-        <iframe
-            src={`https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1&dnt=1&loop=1&autopause=0&byline=0&portrait=0&title=0&badge=0&endscreen=0;app_id=58479`}
-            width="100%"
-            height="600"
-            className="w-full"
-            title={title}
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-            allowFullScreen
-        />
+        <div className="relative w-full h-[600px]">
+          <iframe
+              src={`https://player.vimeo.com/video/${videoId}?autoplay=1&muted=${isMuted ? 1 : 0}&dnt=1&loop=1&autopause=0&byline=0&portrait=0&title=0&badge=0&endscreen=0;app_id=58479`}
+              width="100%"
+              height="600"
+              className="w-full"
+              title={title}
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowFullScreen
+          />
+
+          {isMuted && (
+            <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-40 z-10">
+              <button
+                onClick={handleUnmute}
+                className="px-6 py-3 bg-white text-black text-lg font-semibold rounded shadow hover:bg-gray-100 transition"
+              >
+                🔊 Tap to Unmute
+              </button>
+            </div>
+          )}
+        </div>
       )}
     </div>
   );
