@@ -27,7 +27,7 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
                 alt="Video Thumbnail"
                 className="h-full w-full object-contain cursor-pointer"
                 data-video-id="992060811"
-                style={{width: "auto",height: "100%"}}
+                // style={{width: "auto",height: "100%"}}
                 onClick={handlePlay}
             />
             <button className="play-button" onClick={handlePlay} data-video-id="992060811" value="992060811">
