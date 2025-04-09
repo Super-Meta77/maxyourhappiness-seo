@@ -128,6 +128,17 @@ hr {
     padding: 0 !important;
 }
 
+.play-unmuted-button{
+    background-color: #c55327;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.play-unmuted-button:hover {
+    background-color: #000;
+    transform: translate(-50%, -50%) scale(1.1)
+}
+
 .btn, 
 .hiveri {
     transition: .4s

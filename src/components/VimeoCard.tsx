@@ -57,7 +57,7 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
             <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-95 z-10">
               <button
                 onClick={handleUnmute}
-                className="px-6 py-3 bg-white text-black text-lg font-semibold rounded shadow hover:bg-gray-100 transition"
+                className="play-unmuted-button px-4 py-2 text-lg font-semibold rounded shadow transition"
               >
                 🔊 Tap to Unmute
               </button>
