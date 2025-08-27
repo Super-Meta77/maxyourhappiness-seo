@@ -1077,189 +1077,215 @@ const DmsmhPage: React.FC = () => {
 
       {/* <!-- End Clients --> */}
       {/* <!-- Start Faq section --> */}
-      <section className="section bg-footer pb-4">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="text-center title mb-1">
-                {/*
-                <p className="text-muted text-uppercase fw-normal mt-5">FAQ'S</p>
-                <h3 className="mb-3">This will help you find answers</h3>
-                */}
-                <div className="title-icon position-relative">
-                  <div className="position-relative">
-                    <span className="uim-svg" style={{}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em">
-                        <path className="uim-primary" d="M7.293,12.707l3.99969,3.9997a1.00354,1.00354,0,0,0,1.41468,0L16.707,12.707A.99989.99989,0,0,0,15.293,11.293L13,13.58594V8a1,1,0,0,0-2,0v5.58594L8.707,11.293A.99989.99989,0,0,0,7.293,12.707Z" />
-                        <path className="uim-tertiary" d="M12,22A10,10,0,1,0,2,12,10.01114,10.01114,0,0,0,12,22ZM7.293,11.293a.99963.99963,0,0,1,1.41406,0L11,13.58594V8a1,1,0,0,1,2,0v5.58594l2.293-2.293A.99989.99989,0,0,1,16.707,12.707l-3.99969,3.9997a1.00354,1.00354,0,0,1-1.41468,0L7.293,12.707A.99962.99962,0,0,1,7.293,11.293Z" />
-                      </svg></span>
-                  </div>
-                </div>
-              </div>
+      <section className="bg-secondary">
+        <div className="container mx-auto">
+          
+          <div className="relative flex justify-center">
+            <div className="border-t border-blue-100 w-full absolute top-1/2 transform -translate-y-1/2 z-0"></div>
+            <div className="relative z-10 flex justify-center">
+              <img
+                src="images/arrow-down.png"
+                alt="Video Thumbnail"
+                className="h-full w-full object-contain cursor-pointer"
+                data-video-id="998466373"
+                style={{ width: "20px", height: "20px"}}
+                />
             </div>
           </div>
-          {/* end row */}
+          <hr className="hr-4 my-4" />
 
-          {/* start faq */}
-          <div className="row mb-5 pb-4">
-            <div className="col-lg-6 col-md-6">
-              <div className="mt-5 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+          <div className="mb-5 grid gap-6 md:grid-cols-2">
+            <div className="mb-5 grid gap-6 md:grid-rows-2">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
+                  
                 </div>
                 <div>
-                  <h5 className="font-18 mt-1">Why do we hurt the ones we love?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 169</strong></span></h5>
+                  <h5 className="font-18 mt-1">Why do we hurt the ones we love?<br/>
+                  <span style={{color: "red"}}><strong>Answer Page 169</strong></span></h5>
                 </div>
               </div>
-              <div className="mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
                 </div>
                 <div>
                   <h5 className="font-18 mt-1">
-                    What is the real cause of depression?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 47</strong></span>
+                    What is the real cause of depression?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 47</strong></span>
                   </h5>
                 </div>
               </div>
+              {/* <!-- Repeat similar structure for other FAQ items --> */}
             </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="mt-sm-5 mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
-                    <i className="mdi mdi-check"></i>
-                  </div>
-                </div>
-                <div>
-                  <h5 className="font-18 mt-1">Why do we give up on our dreams?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 142</strong></span></h5>
-                </div>
-              </div>
-
-              <div className="mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
-                    <i className="mdi mdi-check"></i>
-                  </div>
-                </div>
-                <div>
-                  <h5 className="font-18 mt-1">Is there a cure for stress?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 207</strong></span></h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="mt-sm-5 mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
-                    <i className="mdi mdi-check"></i>
-                  </div>
-                </div>
-                <div>
-                  <h5 className="font-18 mt-1">Can you conquer your fears?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 65</strong></span></h5>
-                </div>
-              </div>
-
-              <div className="mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+            <div className="mb-5 grid gap-6 md:grid-rows-2">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
                 </div>
                 <div>
                   <h5 className="font-18 mt-1">
-                    How do you reach your full potential?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 110</strong></span>
+                    Why do we give up on our dreams?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 142</strong></span>
                   </h5>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="mt-sm-5 mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
                 </div>
                 <div>
                   <h5 className="font-18 mt-1">
-                    How can you improve your mental health?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 13</strong></span>
+                    Is there a cure for stress?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 207</strong></span>
                   </h5>
                 </div>
               </div>
-
-              <div className="mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+              {/* <!-- Repeat similar structure for other FAQ items --> */}
+            </div>
+          </div>
+          <div className="mb-5 grid gap-6 md:grid-cols-2">
+            <div className="mb-5 grid gap-6 md:grid-rows-2">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
                 </div>
                 <div>
                   <h5 className="font-18 mt-1">
-                    What is the true source of anxiety?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 95</strong></span>
+                    Can you conquer your fears?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 65</strong></span>
                   </h5>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="mt-sm-5 mt-4 d-flex">
-                <div className="me-3">
-                  <div className="avatar-title rounded-circle bg-soft-primary avatar-md text-primary">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
                     <i className="mdi mdi-check"></i>
                   </div>
                 </div>
                 <div>
-                  <h5 className="font-18 mt-1">What is happiness?<br />
-                    <span style={{color:'red'}}><strong>Answer Page 39</strong></span></h5>
+                  <h5 className="font-18 mt-1">
+                    How do you reach your full potential?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 110</strong></span>
+                  </h5>
                 </div>
               </div>
+              {/* <!-- Repeat similar structure for other FAQ items --> */}
             </div>
-            {/* end faq row */}
+            <div className="mb-5 grid gap-6 md:grid-rows-2">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
+                    <i className="mdi mdi-check"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 className="font-18 mt-1">
+                    How can you improve your mental health?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 13</strong></span>
+                  </h5>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
+                    <i className="mdi mdi-check"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 className="font-18 mt-1">
+                    What is the true source of anxiety?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 95</strong></span>
+                  </h5>
+                </div>
+              </div>
+              {/* <!-- Repeat similar structure for other FAQ items --> */}
+            </div>
+          </div>
+          <div className="mb-5 grid gap-6 md:grid-cols-2">
+            <div className="mb-5 grid gap-6 md:grid-rows-2">
+              <div className="flex">
+                <div className="mr-3">
+                  <div
+                    className="flex h-8 w-8 items-center justify-center rounded-full text-white" style={{backgroundColor: "#e2a993"}}
+                  >
+                    <i className="mdi mdi-check"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 className="font-18 mt-1">
+                    What is happiness?<br/>
+                    <span style={{color: "red"}}><strong>Answer Page 39</strong></span>
+                  </h5>
+                </div>
+              </div>
+              {/* <!-- Repeat similar structure for other FAQ items --> */}
+            </div>
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row position-relative pb-0 align-items-center justify-content-center text-center">
-            <div className="col-lg-4 col-md-4">
-              <img className="cta-ny-times-responsive" src="./Max Your Happiness_files/ny-times-best-seller-removebg-preview-very-small.png" alt="New York Times Best Seller" />  
-              <h4 className="mb-1 pb-1">
-                <br />
-                Translated Into <strong>50</strong> Languages
-                <br />
-                <br />
-                <strong>"The number one bestselling self-help book of all time"</strong>
-                <p>— Publishers Weekly</p>
-                <br />
-                <strong>Sold In 160 Countries!</strong>          
-                <br />
-                <strong>22,168,430</strong> People <br />Can't Be Wrong!
-                <p className="cta-final-statement">
-                  • Make the decision and get the book now. <br />  
-                  • Read it. Use it.<br />  
-                  • And change your life for the better. <br />  
-                  • This is the one time you will look back later and be glad you made the decision.<br />  
-                </p>  
-                <br />
-                <p></p>
-              </h4>
-              <h4 className="mb-1 pb-1"><span style={{color:'red'}}><strong>ORDER NOW!</strong></span><p></p></h4>
-              <p></p>    
-              <a href="https://cart.bridgepublications.com/cart/order?item=dmsmh-2007.en.pb&fresh=true&fsm=N5dH9f">
-                <img className="cta-ny-times-responsive" src="/dianetics-book-graphic.png" alt="Dianetics Book" />
-              </a> 
-              <p style={{fontSize:'small'}}>
-                <br />
-              </p>
-            </div>
+          <div className="row position-relative text-center" style={{display: "flex", justifyContent: "center", }} >
+        <div className="col-lg-4 col-md-4" style={{width: "33%", lineHeight: "1.6", fontSize:  "30px" }}>
+          <img className="cta-ny-times-responsive" style={{margin: "auto"}} src="images/ny-times-best-seller-removebg-preview.webp" alt="New York Times Best Seller" />  
+          <h4 className="mb-1 pb-1">
+            <br />
+            Translated Into <strong>50</strong> Languages
+            <br />
+            <br />
+            <strong>"The number one bestselling self-help book of all time"</strong>
+          </h4>
+          <p>— Publishers Weekly</p>
+          <br />
+          <h4 className="mb-1 pb-1">
+            <strong>Sold In 160 Countries!</strong>
+            <br />
+            <strong>22,168,430</strong> People <br />Can't Be Wrong!
+          </h4>
+          <p className="cta-final-statement" style={{ textAlign: "left", lineHeight: "1.6", fontWeight: "700", fontSize: "32px", color: "#6f6f6f6"}}>
+            • Make the decision and get the book now. <br />
+            • Read it. Use it.<br />
+            • And change your life for the better. <br />
+            • This is the one time you will look back later and be glad you made the decision.<br />
+          </p>
+          <br />
+          <h4 className="mb-1 pb-1"><span style={{color: "red"}}><strong>ORDER NOW!</strong></span></h4>
+          <a href="https://cart.bridgepublications.com/cart/order?item=dmsmh-2007.en.pb&amp;fresh=true&amp;fsm=N5dH9f" style={{margin: "auto"}}>
+            <img style={{margin: "auto", width: "40vh"}} className="cta-ny-times-responsive" src="images/dianetics-book-graphic.png" alt="Dianetics Book" />
+          </a>
+          <p style={{fontSize: "small"}}>
+            <br />
+          </p>
+        </div>
+
           </div>
         </div>
-        {/* end container */}
       </section>
       <section
         className="hero-4" style={{paddingTop: "11vh"}}
