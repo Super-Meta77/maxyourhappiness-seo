@@ -32,9 +32,14 @@ const VimeoCard: React.FC<VimeoCardProps> = ({ thumbnail, videoId, title }) => {
           <button
             className="play-button absolute z-10"
             onClick={handlePlay}
-            style={{ width: "50px", height: "50px" }}
           >
-            ►
+            <img
+              src="images/play.png"
+              alt="Video Thumbnail"
+              className="h-full w-full object-contain cursor-pointer"
+              data-video-id="998466373"
+              style={{ width: "28px", height: "28px" }}
+            />
           </button>
         </div>
       ) : (
