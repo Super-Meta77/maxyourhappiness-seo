@@ -539,7 +539,7 @@ const App: React.FC = () => {
                 style={{border: "1px solid #c55327"}}
               >
                 <img
-                  src="images/circle-cd-blue.webp"
+                  src="images/circle-cr-lt-green.webp"
                   alt="Testimonial Picture"
                   className="absolute left-4 top-2.5 h-10 w-10 rounded-full border border-white"
                 />
