@@ -71,7 +71,7 @@ a {
 p {
     font-family: Cabin, sans-serif;
     line-height: 1.6 !important;
-    color: #000 !important;
+    color: #000;
     font-weight: 400;
     font-size: 20px;
 }

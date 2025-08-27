@@ -1268,7 +1268,7 @@ const DmsmhPage: React.FC = () => {
             <br />
             <strong>22,168,430</strong> People <br />Can't Be Wrong!
           </h4>
-          <p className="cta-final-statement" style={{ textAlign: "left", lineHeight: "1.6", fontWeight: "700", fontSize: "32px", color: "#6f6f6f6"}}>
+          <p className="cta-final-statement" style={{ textAlign: "left", lineHeight: "1.6", fontWeight: "700", fontSize: "32px", color: "#6d6d6d" }}>
             • Make the decision and get the book now. <br />
             • Read it. Use it.<br />
             • And change your life for the better. <br />
