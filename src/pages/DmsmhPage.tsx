@@ -1261,7 +1261,7 @@ const DmsmhPage: React.FC = () => {
             <br />
             <strong>"The number one bestselling self-help book of all time"</strong>
           </h4>
-          <p>— Publishers Weekly</p>
+          <p style={{ lineHeight: "1.6", fontWeight: "700", fontSize: "16px", color: "#6d6d6d" }}>— Publishers Weekly</p>
           <br />
           <h4 className="mb-1 pb-1">
             <strong>Sold In 160 Countries!</strong>
@@ -1295,13 +1295,6 @@ const DmsmhPage: React.FC = () => {
           <div className="relative flex items-center justify-center">
             <div className="w-full lg:w-8/12">
               <div className="relative rounded-r-[30px] bg-white/10 text-center">
-                <span className="con-border-top"></span>
-                <span className="con-border-bottom"></span>
-                <p className="text-center mb-4" style={{fontSize: "20px", color: "black"}}>
-                  We are a Personal Consultant company providing private
-                  one-on-one consultations for business and personal problems and
-                  their solutions.
-                </p>
 
                 <ul className="list-none text-center">
                   <li>
