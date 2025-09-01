@@ -456,13 +456,6 @@ const DmsmhPage: React.FC = () => {
                 possible.
               </p>
 
-              <div className="mt-4">
-                <a
-                  className="inline-block rounded-lg px-4 py-2.5 hover:bg-black"
-                  style={{color: "#fff", background: "#c55327", borderColor: "#c55327"}}
-                  href="https://cal.com/mikem33/consultation"
-                  >Schedule Appointment</a>
-              </div>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
               <VimeoCard
