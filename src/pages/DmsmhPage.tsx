@@ -478,18 +478,9 @@ const DmsmhPage: React.FC = () => {
       {/* <!-- Start Clients --> */}
       <section className="pb-1">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-10 mt-10">
             <div className="w-full lg:w-8/12">
-              <div className="mb-5 text-center">
-                <p
-                  className="mb-2 text-sm uppercase text-gray-600"
-                  style={{fontSize: "20px", color: "black", letterSpacing: "2px"}}
-                >
-                  Testimonials
-                </p>
-                <h3 className="mb-3 font-bold" style={{fontSize: "32px"}}>
-                  What Our Clients Say
-                </h3>                
+              <div className="mb-5 text-center">                
                 <div className="relative flex justify-center">
                   <div className="border-t border-blue-100 w-full absolute top-1/2 transform -translate-y-1/2 z-0"></div>
                   <div className="relative z-10 flex justify-center">
@@ -525,11 +516,17 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                  answering questions I had had all my life... <br />
-                  This was literally answering questions I had had all my life and
-                  was totally blown away. If you want answers to life and how to
-                  live at your full potential, then I suggest this.
+                  <strong>"One of the best books I've ever read..."</strong><br/> 
+                  I picked up this book and couldn't put it down.
+                  I read it almost all night until 4am
+                  as it was literally answering questions I
+                  had had all my life and was totally blown
+                  away. Definitely one of the best books I
+                  have ever read! If you want answers to
+                  life and how to live at your full potential,
+                  then I suggest reading this book.
                 </p>
+                <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -538,7 +535,7 @@ const DmsmhPage: React.FC = () => {
                 style={{border: "1px solid #c55327"}}
               >
                 <img
-                  src="images/circle-cr-lt-green.webp"
+                  src="images/circle-cd-blue.webp"
                   alt="Testimonial Picture"
                   className="absolute left-4 top-2.5 h-10 w-10 rounded-full border border-white"
                 />
@@ -551,10 +548,13 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Very helpful in dealing with life <br />
-                This can be done alone, with a partner or in a group. Very helpful in dealing with life and overcoming the
-                obstacles of the past and getting to know oneself.
-                </p>
+                <strong>"If you read one book, make this it..."</strong><br/> 
+                This is a self-improvement book that can
+                be done alone, with a partner or in a
+                group. Very helpful in dealing with life
+                and overcoming the obstacles of the past
+                and getting to know oneself.  </p>
+                <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -576,11 +576,15 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                "it helped me completely..."" <br />
-                This changed my life. I got the therapy done and it helped me completely heal from my brothers death and
-                other tragic events that I've endured. I've honestly never felt more free. A huge weight has been lifted
-                off my shoulders.
-                </p>
+                <strong>"Amazing book, changed my life..."</strong><br/> 
+                Amazing book changed my life. I got the
+                therapy done and it helped me
+                completely heal from my brothers death
+                and other tragic events that I've endured.
+                I've honestly never felt more free. A huge
+                weight has been lifted off my shoulders.
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -605,10 +609,17 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                This changed everything for me <br />
-                I am a successful businessman and this described where all of my unwanted attitudes, emotions and negative
-                ideas were coming from. I finally know why problems in life occur and how to eliminate them.
-                </p>
+                <strong>"This book changed everything for me..."</strong><br/> 
+                I am a successful businessman and have
+                read many self-help books but this one,
+                by far, is the most important book that 
+                I've ever read. It described where all of
+                my unwanted attitudes, emotions and 
+                negative ideas were coming from. I finally
+                know why problems in life occur and how
+                to eliminate them. 
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -630,10 +641,13 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                If you're ready for more than the next inspirational quote... <br />
-                This was a deep dive into truth, truth of self, so if you need more than "inspo" a LOT more, I recommend
-                it.
-                </p>
+                <strong>"If you're ready for more than the next
+                inspirational quote..."</strong><br/> 
+                This book was a deep dive into truth,
+                truth of self, so if you need more than
+                "inspo" a LOT more, I recommend it.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -655,10 +669,14 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Makes sense <br />
-                This gave me some hope that I was not going crazy and that there was something that could help me. It
-                makes sense to me why people are the way they are.
-                </p>
+                <strong>"Makes sense..."</strong><br/>
+                This book gave me some hope that I was
+                not going crazy and that there was
+                something that could help me. It is the
+                first book that makes sense to me why
+                people are the way they are. 
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -683,11 +701,17 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                This is life changing <br />
-                This explained so much to me about why people behave as they do. It allows me to understand people and to
-                know that when someone is being irrational that it's not really them but their reactive mind. This helps
-                me in dealing with situations in my life.
-                </p>
+                <strong>"This book is life changing..."</strong><br/>
+                The information provided in this book
+                explained so much to me about why
+                people behave as they do. It allows me to
+                understand people and to know that
+                when someone is being irrational that it's
+                not really them but their reactive mind.
+                This helps me in dealing with situations in 
+                my life.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -709,10 +733,14 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                You can lead a better, happier life... <br />
-                This explains the source of unwanted emotions, fears, and upsets. And shows how to get rid of them so that
-                you can lead a better, happier life. I highly recommend it.
-                </p>
+                <strong>"Great Book..."</strong><br/>
+                This is a great book which explains the
+                source of unwanted emotions, fears, and
+                upsets. And shows how to get rid of them
+                so that you can lead a better, happier life.
+                I highly recommend it. 
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -734,12 +762,21 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Well worth the time <br />
-                This is not run-of-the-mill. Not by a long shot. Rather than dealing out a passel of platitudes, it
-                provides concrete methods for improvement in wellbeing and relationships. The techniques helped relieve
-                the person of the past burdens. With the world becoming more contentious and difficult to decipher, this
-                provides some badly needed answers.
-                </p>
+                <strong>"Well worth the time..."</strong><br/>
+                This is not a run-of-the-mill "self-help"
+                book. Not by a long shot. Rather than
+                dealing out a passel of platitudes, it
+                provides concrete methods for
+                improvement in wellbeing and 
+                relationships. The author cites many case
+                studies and then explains how the
+                techniques helped relieve the person of 
+                the past burdens. With the world
+                becoming more contentious and difficult
+                to decipher, this book provides some
+                badly needed answers.
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -764,10 +801,11 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                It explains and helps handle things in life! <br />
-                The is so well laid out and gives you not only a technique but what is happening when you do the
-                procedure. You can be at cause over things that you have felt helpless about!
-                </p>
+                <strong>"It explains and helps handle things in life!"</strong><br/>
+                The book is so well laid out and gives you not only a technique but what is happening when you do 
+                the procedure. You can be at cause over things that you have felt helpless about!
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -789,14 +827,19 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Absolutely life changing! <br />
-                My personal problem was that I had trouble speaking to people. I was afraid. There was no reason for it,
-                it was completely irrational. But it was a huge problem for me in business deals, speaking with
-                professors, giving presentations, and just generally being social. This not only was able to tell me why I
-                had this problem and where it came from, but also HOW TO FIX IT. That's what really impressed me the most
-                - it actually will fix the things that give you trouble in life, not just talk about them or give you some
-                vague idea of what needs to be done.
-                </p>
+                <strong>"Absolutely life changing!"</strong><br />
+                My personal problem was that I had trouble speaking to people. I
+                was afraid. There was no reason for it, it was completely
+                irrational. But it was a huge problem for me in business deals,
+                speaking with professors, giving presentations, and just
+                generally being social. This not only was able to tell me why I
+                had this problem and where it came from, but also HOW TO FIX IT.
+                That's what really impressed me the most about this book - it
+                actually will fix the things that give you trouble in life, not
+                just talk about them or give you some vague idea of what needs
+                to be done.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -818,11 +861,16 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Answers the questions you wanted to ask <br />
-                WOW! I have tried to actually use so many different philosophies and practices in my life to make things
-                better. Some helped a little, some helped more. But, this has the information about why individuals,
-                systems, civilizations, marriages, religions and groups don't make it, long term. This is astonishing.
-                </p>
+                <strong>"Answers the questions you wanted to ask..."</strong
+                ><br />
+                WOW! I have studied and tried to actually use so many different
+                philosophies and practices in my life to make things better.
+                Some helped a little, some helped more. But, this book has the
+                information in it about why individuals, systems, civilizations,
+                marriages, religions and groups don't make it, long term. This
+                info is astonishing.
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -847,10 +895,12 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                This made life so much better! <br />
-                This helped me so much to understand how the mind works, why we sometimes behave irrationally for no
-                apparent reason and something practical people can actually do about it.
-                </p>
+                <strong>"This book made life so much better!"</strong><br />
+                This book helped me so much to understand how the mind works,
+                why we sometimes behave irrationally for no apparent reason and
+                something practical people can actually do about it.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -872,12 +922,16 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Can make decisions easily now <br />
-                Before reading this, I had a lot of trouble making decisions. I would think about things and ponder them
-                and often would end up getting nothing done or putting life choices off over and over again. It explained
-                to me why it was that I took so long to make decisions and why sometimes I made the wrong ones. This has
-                helped me so much in getting things done to lead a generally happier life. Thank you!
-                </p>
+                <strong>"Can make decisions easily now..."</strong><br />
+                Before reading this book, I had a lot of trouble making
+                decisions. I would think about things and ponder them and often
+                would end up getting nothing done or putting life choices off
+                over and over again. It explained to me why it was that I took
+                so long to make decisions and why sometimes I made the wrong
+                ones. This has helped me so much in getting things done to lead
+                a generally happier life. Thank you!
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -899,10 +953,12 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                deeper and more compassionate understanding... <br />
-                It would be impossible to not come away with a deeper and more compassionate understanding of their fellow
+                <strong>"Owners manual" for the human mind..."</strong><br />
+                It would be impossible to read this book and not come away with
+                a deeper and more compassionate understanding of their fellow
                 man. Highly recommended. Worth it many times over.
-                </p>
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -927,13 +983,19 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                An adventure into Terra Incognita (unknown land) <br />
-                There are few that can take one on a journey like this one! The freedom that I have experienced in my life
-                and the return of memory that this has handed me is impossible to describe. That said, this isn't about me
-                it's about you and helping you get rid of influences that make life less fun. This has helped me in life,
-                marriage, work, raising kids, and with family. I recommend it highly to anyone that wants to truly
-                understand their mind and how it really works.
-                </p>
+                <strong
+                  >"An adventure into Terra Incognita..." (unknown land) </strong
+                ><br />
+                There are few books that take one on a journey like this one!
+                The freedom that I have experienced in my life and the return of
+                memory that this has handed me is impossible to describe. That
+                said, this book isn't about me it's about you and helping you
+                get rid of influences that make life less fun. This has helped
+                me in life, marriage, work, raising kids, and with family. I
+                recommend it highly to anyone that wants to truly understand
+                their mind and how it really works.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -955,13 +1017,18 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                ...actually handled my depression <br />
-                I had severe depression after having my baby. Nothing seemed to help and I didn't want to be on pills for
-                the rest of my life. Then I found this that's based on modern science. It made so much sense, and finally
-                I felt like my questions were answered and I knew how and why I was feeling that way. I followed the
-                instructions and I started getting better right away. I highly recommend this for anyone who doesn't want
-                to take pills to handle their depression.
-                </p>
+                <strong>"Modern Science that actually handled my depression..."</strong><br />
+                I had severe depression after having my baby. Nothing seemed to
+                help and I didn't want to be on pills for the rest of my life.
+                Then I found this mental health book that's based on modern
+                science. It made so much sense, and finally I felt like my
+                questions were answered and I knew how and why I was feeling
+                that way. I followed the instructions in the book and I started
+                getting better right away. I highly recommend this book for
+                anyone who doesn't want to take pills to handle their
+                depression.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -983,10 +1050,13 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                Handled my anxiety, wow!! <br />
-                This took me on a very unexpected trip. This one actually gives a practical explanation and remedy for the
-                anxiety I suffered with for years. I gotta say, this was a game changer for me!
-                </p>
+                <strong>"Handled my anxiety, wow!!"</strong><br />
+                This book took me on a very unexpected trip. I've read a lot of
+                spiritual and self-help books and this one actually gives a
+                practical explanation and remedy for the anxiety I suffered with
+                for years. I gotta say, this was a game changer for me!
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}
@@ -1011,13 +1081,18 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                A fascinating, about the mind (and much more) <br />
-                This is built around the idea that something positive can be done to not only address things I didn't
-                understand or like about myself but also how to move forward no matter how crazy things get out there. I
-                also really appreciated the understanding it gave me about other people. One thing I learned over the last
-                few years is how important it is to take charge of my own life and my own health, physical and mental.
-                This gave me a deep understanding and tools I can use pretty much every day.
-                </p>
+                <strong>"A fascinating, readable book about the mind..." (and much more)</strong><br />
+                This book is built around the idea that something positive can
+                be done to not only address things I didn't understand or like
+                about myself but also how to move forward no matter how crazy
+                things get out there. I also really appreciated the
+                understanding it gave me about other people. One thing I learned
+                over the last few years is how important it is to take charge of
+                my own life and my own health, physical and mental. This book
+                gave me a deep understanding and tools I can use pretty much
+                every day.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -1039,10 +1114,12 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                It is your pathway to emotional/mental freedom <br />
-                This has opened so many doors for me and has led to me making PROFOUND advances in professional and
-                personal lives. My relationship has never been stronger.
-                </p>
+                <strong>"It is your pathway to emotional/mental freedom..."</strong><br />
+                This book has opened so many doors for me and has led to me
+                making PROFOUND advances in professional and personal lives. My
+                relationship has never been stronger. A MUST READ.
+              </p>
+              <p></p>
               </div>
             </div>
             <div className="flex" style={{marginBottom: "50px"}}>
@@ -1064,10 +1141,13 @@ const DmsmhPage: React.FC = () => {
                     color: "black"
                   }}
                 >
-                  It just makes sense <br />
-                  This was different. It just totally makes sense. It's very simple and I like that the science involved is
-                  100% invariable to every person..
-                </p>
+                <strong>"It just makes sense..."</strong><br />
+                I have read a lot of books about the mind and mental health, and
+                this was different. It just totally makes sense. It's very
+                simple and I like that the science involved is 100% invariable
+                to every person.
+              </p>
+              <p></p>
               </div>
             </div>
             {/* <!-- Repeat similar structure for other testimonials --> */}

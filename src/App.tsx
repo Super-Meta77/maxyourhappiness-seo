@@ -479,18 +479,9 @@ const App: React.FC = () => {
       {/* <!-- Start Clients --> */}
       <section className="pb-1">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-10 mt-10 ">
             <div className="w-full lg:w-8/12">
               <div className="mb-5 text-center">
-                <p
-                  className="mb-2 text-sm uppercase text-gray-600"
-                  style={{fontSize: "20px", color: "black", letterSpacing: "2px"}}
-                >
-                  Testimonials
-                </p>
-                <h3 className="mb-3 font-bold" style={{fontSize: "32px"}}>
-                  What Our Clients Say
-                </h3>                
                 <div className="relative flex justify-center">
                   <div className="border-t border-blue-100 w-full absolute top-1/2 transform -translate-y-1/2 z-0"></div>
                   <div className="relative z-10 flex justify-center">
