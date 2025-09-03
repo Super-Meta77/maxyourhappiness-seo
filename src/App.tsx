@@ -111,22 +111,18 @@ const App: React.FC = () => {
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
-                I'd been dating this guy who was not a great guy, and I'd been
-                with him for about five years and I could not let go of him. I
-                couldn't. I knew he was wrong for me. I knew I didn't actually
-                want to be with him, but I couldn't not be with him. It was like
-                out of my control.
+              I'd been dating this guy who was not a great guy, and I'd been with him for about five years and I could
+              not let go of him. I couldn't. I knew he was wrong for me. I knew I didn't actually want to be with him,
+              but I couldn't not be with him. It was like out of my control.
               </p>
 
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>AFTER</strong><br />
-                So I was actually able to realize, No, I don't want to be with
-                this guy and I can stop being with him. And I was able to put an
-                end to that and move on with my life and opened the door to
-                actually having a great relationship with my husband. It was a big
-                part of me having three wonderful births. My kids are amazing. Of
-                course, every mom says that, but they really, truly are. And
-                everything I read in that book is part of what I do.
+                So I was actually able to realize, No, I don't want to be with this guy and I can stop being with him. And
+                I was able to put an end to that and move on with my life and opened the door to actually having a great
+                relationship with my husband. It was a big part of me having three wonderful births. My kids are amazing.
+                Of course, every mom says that, but they really, truly are. And everything with this is part of
+                my life.
               </p>
             </div>
           </div>
@@ -154,22 +150,17 @@ const App: React.FC = () => {
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
-                There was an injury, you know, when I was a kid, cut my knee open.
-                It wasn't the knee that was painful. The painful part was the
-                embarrassment, because the girl that I had a crush on was there
-                and saw me being tended to. It was that feeling of helpless. That
-                actually is what stuck with me. The reactive mind was just
-                connecting it. Here's a girl. Here's a moment of you being weak.
-                You have to be stronger. You have to do this. You have to build
-                walls. You have to be a man. You have to be. So, we get to the
-                root of it.
+                There was an injury, you know, when I was a kid, cut my knee open. It wasn't the knee that was painful.
+                The painful part was the embarrassment, because the girl that I had a crush on was there and saw me being
+                tended to. It was that feeling of helpless. That actually is what stuck with me. The reactive mind was
+                just connecting it. Here's a girl. Here's a moment of you being weak. You have to be stronger. You have to
+                do this. You have to build walls. You have to be a man. You have to be. So, we get to the root of it.
               </p>
 
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>AFTER</strong><br />
-                Boom! All that, that connection just releases. It's gone. I came
-                out of there calm. I was just me. I said, Hey, everyone, I'm just
-                me.
+              Boom! All that, that connection just releases. It's gone. I came out of there calm. I was just me. I said,
+              Hey, everyone, I'm just me.
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
@@ -211,18 +202,15 @@ const App: React.FC = () => {
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
-                I was so insecure, I had no friends. I just wanted to be liked.
-                And I was just really, you know, introverted and I wanted to be a
-                singer. And I couldn't I could barely talk to people.
+              I was so insecure, I had no friends. I just wanted to be liked. And I was just really, you know,
+              introverted and I wanted to be a singer. And I couldn't I could barely talk to people.
               </p>
 
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>AFTER</strong><br />
-                So I have I can communicate with people. I can get up on stage and
-                not be shy. I have friends, tons of friends all over the world,
-                and I don't have problems making friends at all. It's completely
-                different. I don't know how people live without this. Not even
-                kidding.
+              So I have I can communicate with people. I can get up on stage and not be shy. I have friends, tons of
+              friends all over the world, and I don't have problems making friends at all. It's completely different. I
+              don't know how people live without this. Not even kidding.
               </p>
             </div>
           </div>
@@ -246,24 +234,21 @@ const App: React.FC = () => {
           <div className="flex flex-col items-center lg:flex-row">
             <div className="order-2 mt-4 lg:order-1 lg:mt-0 lg:w-5/12">
               <h4 className="text-xl font-bold" style={{fontSize: "32px"}}>
-                Can’t Let Go of Your Loss?
+                Can’t Let Go of Your Losses?
               </h4>
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>BEFORE</strong><br />
-                Had several losses. My mom died of cancer. My dad committed
-                suicide. And then I lost a son. I lost a baby. I mean, I was
-                constantly crying. I mean, a commercial would come on and I would
-                cry. I would see something and I would cry.
+              Had several losses. My mom died of cancer. My dad committed suicide. And then I lost a son. I lost a baby.
+              I mean, I was constantly crying. I mean, a commercial would come on and I would cry. I would see something
+              and I would cry.
               </p>
 
               <p className="mt-3 text-gray-600" style={{fontSize: "20px", color: "black"}}>
                 <strong>AFTER</strong><br />
-                …and I could start to breathe and I could start to work again. I'm
-                not moving through mud because I felt like because of all of the
-                losses that I had in my life, I was moving through mud. And now I
-                can actually breathe and look and I have a joy and excitement and
-                I have like just this energy, this dynamic drive that I just
-                didn't have before.
+              …and I could start to breathe and I could start to work again. I'm not moving through mud because I felt
+              like because of all of the losses that I had in my life, I was moving through mud. And now I can actually
+              breathe and look and I have a joy and excitement and I have like just this energy, this dynamic drive that
+              I just didn't have before.
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
@@ -304,23 +289,18 @@ const App: React.FC = () => {
                 Why Don’t My Relationships Work?
               </h4>
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>BEFORE:</strong> I mean, I was doing really well in many
-                areas of my life, except in relationships. And I would pick what
-                would be probably the worst person in the world to do a
-                relationship with. And then after being with them for a period of
-                time, I would get a lot of evidence that this is the wrong person
-                for me to be with, but I just couldn't end it. I thought for sure
-                I was going to be a bachelor. One of those guys the rest of my
-                life.
+                <strong>BEFORE:</strong> I mean, I was doing really well in many areas of my life, except in
+              relationships. And I would pick what would be probably the worst person in the world to do a relationship
+              with. And then after being with them for a period of time, I would get a lot of evidence that this is the
+              wrong person for me to be with, but I just couldn't end it. I thought for sure I was going to be a
+              bachelor. One of those guys the rest of my life.
               </p>
 
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>AFTER:</strong> And ever since then and it was like one
-                session, one like, and it was like 30 minutes and it was like that
-                big of a change. Because it was right at the core of what I really
-                wanted to have in life, a loving, beautiful relationship. And that
-                got fixed was one, one moment in time and it was gone. And it was
-                like, Man, I got my attention.
+                <strong>AFTER:</strong> And ever since then and it was like one session, one like, and it was like 30
+              minutes and it was like that big of a change. Because it was right at the core of what I really wanted to
+              have in life, a loving, beautiful relationship. And that got fixed was one, one moment in time and it was
+              gone. And it was like, Man, I got my attention.
               </p>
             </div>
           </div>
@@ -348,18 +328,15 @@ const App: React.FC = () => {
                 What Is The Real Cause of Depression?
               </h4>
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>BEFORE:</strong> I had an issue with anxiety and
-                depression since I was about ten years old, and it was there until
-                I was about forty-five. So, it was a very long decades of anxiety
-                and depression. And you just never knew when, like the anxiety was
-                going to turn on and you were going to be have your car pulled
-                over having a panic attack.
+                <strong>BEFORE:</strong> I had an issue with anxiety and depression since I was about ten years old, and
+              it was there until I was about forty-five. So, it was a very long decades of anxiety and depression. And
+              you just never knew when, like the anxiety was going to turn on and you were going to be have your car
+              pulled over having a panic attack.
               </p>
 
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>AFTER:</strong> And now the anxiety and depression that
-                were so gut wrenchingly difficult at times in my life is just
-                completely gone.
+                <strong>AFTER:</strong> And now the anxiety and depression that were so gut wrenchingly difficult at times
+                in my life is just completely gone.
               </p>
             </div>
             <div className="order-1 w-full lg:order-2 lg:w-6/12 lg:ml-auto">
@@ -400,19 +377,16 @@ const App: React.FC = () => {
                 How Do You Reach Your Full Potential?
               </h4>
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>BEFORE:</strong> After an injury I sustained when I was
-                about 12 years old. It sort of put a damper on the way that I
-                approach life. There was sort of this longing to return to what I
-                had had before in terms of my ability to communicate more freely.
-                And I had lost that. And it was this thing that I carried with me
-                for literally decades. I didn't realize how much of my life force,
-                my negative emotions, had been trapped.
+                <strong>BEFORE:</strong> After an injury I sustained when I was about 12 years old. It sort of put a
+              damper on the way that I approach life. There was sort of this longing to return to what I had had before
+              in terms of my ability to communicate more freely. And I had lost that. And it was this thing that I
+              carried with me for literally decades. I didn't realize how much of my life force, my negative emotions,
+              had been trapped.
               </p>
 
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>AFTER:</strong> It was a burst of joy, really tears of
-                happiness that I regained. This portion of my life—I was a changed
-                person.
+                <strong>AFTER:</strong> It was a burst of joy, really tears of happiness that I regained. This portion of
+                my life—I was a changed person.
               </p>
             </div>
           </div>
@@ -439,22 +413,17 @@ const App: React.FC = () => {
                 What is Happiness?
               </h4>
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>BEFORE:</strong> I am here in Costa Rica. People dream of
-                it. And I was like, wow, this literally I had this aha moment
-                where I was like, this is my happy place and I'm not happy. I
-                can't go on like this, you know, where it's like, I'm just looking
-                for an outside source to create the happiness.
+                <strong>BEFORE:</strong> I am here in Costa Rica. People dream of it. And I was like, wow, this literally
+              I had this aha moment where I was like, this is my happy place and I'm not happy. I can't go on like this,
+              you know, where it's like, I'm just looking for an outside source to create the happiness.
               </p>
 
               <p className="text-gray-600" style={{fontSize: "20px", color: "black"}}>
-                <strong>AFTER:</strong> This is the first time I've been my entire
-                life and happy for no reason, other people might be like, Oh,
-                shouldn't you have like the perfect marriage and all the kids and
-                things? And like, I was just feeling this internal glow, this is
-                magic. Like, this is what I've wanted my whole life. I was in my
-                car and I was like, Oh my God, it's the first time I've been happy
-                for no reason. In, like my entire life. I cannot believe this was
-                possible.
+                <strong>AFTER:</strong> This is the first time I've been my entire life and happy for no reason, other
+              people might be like, Oh, shouldn't you have like the perfect marriage and all the kids and things? And
+              like, I was just feeling this internal glow, this is magic. Like, this is what I've wanted my whole life.
+              I was in my car and I was like, Oh my God, it's the first time I’ve been happy for no reason. In, like my
+              entire life. I cannot believe this was possible.
               </p>
 
               <div className="mt-4">
