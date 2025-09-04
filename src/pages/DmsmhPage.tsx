@@ -1341,7 +1341,7 @@ const DmsmhPage: React.FC = () => {
                 <ul className="list-none text-center">
                   <li>
                     <a
-                      href="privacy policy.html"
+                      href="https://maxyourhappiness.com/dmsmh/privacy%20policy.html"
                       className="text-gray-600 transition-colors hover:text-gray-400" style={{fontSize: "20px", color: "black"}}
                     >
                       Privacy Policy
